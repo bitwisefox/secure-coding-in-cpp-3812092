@@ -11,7 +11,7 @@ int main(){
     std::cout << "Enter a message: ";
     std::getline(std::cin, userInput); 
 
-    std::printf(userInput.c_str()); 
+    std::cout << userInput;
 
     std::cout << std::endl << std::endl;
     return 0;
